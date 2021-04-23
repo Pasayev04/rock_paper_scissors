@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+    <div id="container">
+        <div class="player" id="computer_container">
+          <div class="title" id="computer_title">Computer</div>
+    
+          <div class="hand_container" id="left_hand_container">
+            <img class="fist left hand" src="./images/left_fist.png">
+            <img class="result left rock" src="./images/rock.png" style="display:none">
+            <img class="result left paper" src="./images/paper.png" style="display:none">
+            <img class="result left scissors" src="./images/scissors.png" style="display:none">
+          </div>
+    
+        </div>
+    
+        <div id="score_container">Choose your weapon</div>
+    
+        <div class="player" id="human_container">
+          <div class="title" id="computer_title">You</div>
+    
+          <div class="hand_container" id="right_hand_container">
+            <img class="fist right hand" src="./images/right_fist.png">
+            <img class="result right rock" src="./images/rock.png" style="display:none">
+            <img class="result right paper" src="./images/paper.png" style="display:none">
+            <img class="result right scissors" src="./images/scissors.png" style="display:none">
+          </div>
+    
+          <div id="btn_container">
+            <div class="button clickable" id="rock">Rock</div>
+            <div class="button clickable" id="paper">Paper</div>
+            <div class="button clickable" id="scissors">Scissors</div>
+          </div>
+        </div>
+    
+      </div>
+    
+    <script src="./assets/rps.js"></script>
+</body>
+</html>
